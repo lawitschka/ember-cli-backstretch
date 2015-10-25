@@ -1,25 +1,31 @@
-# Ember-cli-backstretch
+# Ember CLI Backstretch
 
-This README outlines the details of collaborating on this Ember addon.
+Simple Ember component wrapping Scott Robbin's jQuery Backstretch plugin
+(http://srobbin.com/jquery-plugins/backstretch/).
 
 ## Installation
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+This plugin can be installed using Ember CLI's built-in addon install tool:
 
-## Running
+```
+ember install ember-cli-backstretch
+```
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+## Usage
 
-## Running Tests
+In any template, wrap the content with `jquery-backstretch` and pass in an array
+of images and (optionally) a configuration hash.
 
-* `ember test`
-* `ember test --server`
+```handlebars
+{{#jquery-backstretch images=backstretchImages config=backstretchConfig}}
+  <h2>Welcome to Ember</h2>
+{{/jquery-backstretch}}
+```
 
-## Building
+For configuration options, see
+https://github.com/srobbin/jquery-backstretch#options.
 
-* `ember build`
+## Contributing
 
-For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
+You miss any feature from jQuery Backstretch? Feel free to send me a pull
+request!
