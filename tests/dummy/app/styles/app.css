@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+}
+
+.ember-view {
+  min-height: 100vh;
+}
+
+h2 {
+  margin: 0
+}
