@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-backstretch",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Ember component for jQuery Backstretch.",
   "directories": {
     "doc": "doc",
