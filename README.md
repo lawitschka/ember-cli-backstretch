@@ -1,7 +1,6 @@
 # Ember CLI Backstretch
 
-Simple Ember component wrapping Scott Robbin's jQuery Backstretch plugin
-(http://srobbin.com/jquery-plugins/backstretch/).
+Simple Ember component wrapping [Scott Robbin's jQuery Backstretch plugin](http://srobbin.com/jquery-plugins/backstretch/).
 
 ## Installation
 
@@ -22,8 +21,7 @@ of images and (optionally) a configuration hash.
 {{/jquery-backstretch}}
 ```
 
-For configuration options, see
-https://github.com/srobbin/jquery-backstretch#options.
+For configuration options, see the original [readme](https://github.com/srobbin/jquery-backstretch#options).
 
 ## Contributing
 
