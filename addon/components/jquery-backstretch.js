@@ -6,13 +6,10 @@ export default Ember.Component.extend({
   config: {},
 
   setupBackstretch: Ember.on('didInsertElement', function() {
-    this.$().backstretch(
-      this.get('images'),
-      this.get('config')
-    );
+    this.element.addEventListener(this.get('images'), this.get('config'));
   }),
 
   teardownBackstretch: Ember.on('willDestroyElement', function() {
-    this.$().backstretch("destroy", true);
+    this.element.addEventListener("destroy", true);
   })
 });
